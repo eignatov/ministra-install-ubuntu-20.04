@@ -3,6 +3,9 @@ Ministra Portal auto install script on Ubuntu 20.04 LTS / 18.04 LTS
 # +
 # Ministra 5.6.1 - 5.6.8 Dockerized
 Ministra 5.6.1 - 5.6.8 Dockerized, Deploy on any Distribution, Super easy to set up & No hassle. 
+##### Runs Dockerized on
+[![Ubuntu](https://user-images.githubusercontent.com/12951085/139538206-833d8d33-0d1b-4d51-8ec8-86e5cf14f82e.png)](https://www.ubuntu.com)
+[![Ubuntu](https://user-images.githubusercontent.com/12951085/139538206-833d8d33-0d1b-4d51-8ec8-86e5cf14f82e.png)](https://www.ubuntu.com)
 ```bash
 cd ~/
 wget -O deploy.sh https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/deploy.sh
@@ -15,7 +18,7 @@ sh ./deploy.sh somepassword version
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/sybdata)  You can make one-time donations via PayPal.
 
 ##### Runs auto install script on
-[![Ubuntu](https://user-images.githubusercontent.com/12951085/139538206-833d8d33-0d1b-4d51-8ec8-86e5cf14f82e.png)](https://www.ubuntu.com)
+[![Ubuntu](![debian-logo-1024x576](https://user-images.githubusercontent.com/24189833/147383181-cc95f80d-92dc-4afc-ad05-f7ee048b4ae0.png))](https://www.ubuntu.com)
 
 This script work only on Clean Ubuntu 20.04 LTS / 18.04 LTS
 
