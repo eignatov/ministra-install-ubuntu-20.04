@@ -2,10 +2,13 @@
 Ministra Portal auto install script on Ubuntu 20.04 LTS / 18.04 LTS
 # +
 # Ministra 5.6.1 - 5.6.8 Dockerized
+[![Docker](https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/docker.svg)](https://docs.docker.com/get-docker)
 Ministra 5.6.1 - 5.6.8 Dockerized, Deploy on any Distribution, Super easy to set up & No hassle. 
 ##### Runs Dockerized on
-[![Ubuntu](https://user-images.githubusercontent.com/12951085/139538206-833d8d33-0d1b-4d51-8ec8-86e5cf14f82e.png)](https://www.ubuntu.com)
-[![Ubuntu](https://user-images.githubusercontent.com/12951085/139538206-833d8d33-0d1b-4d51-8ec8-86e5cf14f82e.png)](https://www.ubuntu.com)
+[![Ubuntu](https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/ubuntu.svg)](https://www.ubuntu.com)
+[![Debian](https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/debian.svg)](https://www.debian.org/download)
+[![Centos](https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/centos.svg)](https://www.centos.org/centos-linux)
+[![Fedora](https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/fedora.svg)](https://getfedora.org/de/server/download)
 ```bash
 cd ~/
 wget -O deploy.sh https://raw.githubusercontent.com/sybdata/ministra-install-ubuntu-20.04/main/deploy.sh
