@@ -24,7 +24,7 @@ docker run \
 --name mysql-server \
 -v mysql-server:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=$1 \
---network ministra-net -p 127.0.0.1:3306:3306 \
+--network ministra-net -p 3306:3306 \
 -hmysql-server \
 -d mysql:5.7 --sql-mode="NO_ENGINE_SUBSTITUTION" > /dev/null 2>&1
 
@@ -47,7 +47,7 @@ echo "Starting Ministra Container..."
 docker run -itd \
 -e MYSQLPASS=$1 \
 -e MYSQLADDR='mysql-server' \
---name ministra -p 127.0.0.1:80:80 \
+--name ministra -p 80:80 \
 --mount type=bind,source=$(pwd)/custom.ini,target=/var/www/html/stalker_portal/server/custom.ini \
 --network ministra-net scriptingonline/ministra:$2 > /dev/null 2>&1
 
