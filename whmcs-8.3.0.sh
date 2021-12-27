@@ -25,7 +25,7 @@ docker run \
 --name mysql-server \
 -v mysql-server:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=$1 \
---network whmcs-net -p 127.0.0.1:3306:3306 \
+--network whmcs-net -p 3306:3306 \
 -hmysql-server \
 -d mysql:8 > /dev/null 2>&1
 
@@ -38,7 +38,7 @@ docker volume create whmcs-attachments > /dev/null 2>&1
 # Start Whmcs Container
 echo "Starting Whmcs Container..."
 docker run -itd \
---name whmcs -p 127.0.0.1:80:80 \
+--name whmcs -p 80:80 \
 -v whmcs-downloads:/var/www/downloads \
 -v whmcs-templates:/var/www/templates_c \
 -v whmcs-attachments:/var/www/attachments \
